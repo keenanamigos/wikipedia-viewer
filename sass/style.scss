@@ -5,11 +5,19 @@ $center: center;
 $transition: all .5s;
 $input-border-radius: 10em;
 $box-shadow: 0 0 5px rgba(109,207,246,.5);
+$inherit: inherit;
+$font-size: 1.575rem;
 
 body {
     background-color: $background-color;
     color: $text-color;
     font-family: $font-family;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: $inherit;
 }
 
 .flex-container {
@@ -20,10 +28,14 @@ body {
     margin-top: 20%;
 }
 
+.search-label {
+    font-size: $font-size;
+}
+
 input {
     outline: none;
     font-size: 100%;
-    font-family: inherit;
+    font-family: $inherit;
     background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px $center;
 	border: solid 1px #ccc;
 	padding: 9px 10px 9px 32px;
@@ -47,4 +59,10 @@ input:focus {
 	-webkit-box-shadow: $box-shadow;
 	-moz-box-shadow: $box-shadow;
 	box-shadow: $box-shadow;
+}
+
+a {
+    color: $inherit;
+    text-decoration: $inherit;
+    font-size: $font-size;
 }

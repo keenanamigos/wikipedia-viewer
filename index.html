@@ -13,10 +13,13 @@
     <body>
         <main>
             <div class="flex-container">
-                <button id="randomArticle">Click here for a random article</button>
+                <button id="randomArticle" tabindex="-1">
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">Click here for a random article</a>
+                </button>
                 <label><span class="search-label">Search:</span> <input id="search" name="search" type="search"></label>
             </div>
         </main>
         <!-- SCRIPTS -->
+        <script src="./dist/main.js" type="text/javascript"></script>
     </body>
 </html>
