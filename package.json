@@ -1,0 +1,11 @@
+{
+  "name": "wikipedia-viewer",
+  "version": "1.0.0",
+  "description": "an interface for wikipedia results",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keenanamigos",
+  "license": "ISC"
+}
