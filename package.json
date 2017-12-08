@@ -14,6 +14,7 @@
     "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
     "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "gulp-typescript": "^3.2.3",
     "mocha": "^4.0.1",
     "ts-node": "^3.3.0",
