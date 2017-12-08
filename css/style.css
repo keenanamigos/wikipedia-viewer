@@ -1,7 +1,14 @@
 body {
   background-color: #092B40;
-  font-family: "Rubik", sans-serif;
-  color: "white"; }
+  color: white;
+  font-family: "Rubik", sans-serif; }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%; }
 
 input {
   outline: none;
@@ -10,13 +17,14 @@ input {
   background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
   border: solid 1px #ccc;
   padding: 9px 10px 9px 32px;
-  width: 55px;
+  width: 15px;
+  margin-top: 10%;
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
   border-radius: 10em;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s; }
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; }
 
 input:focus {
   width: 130px;
