@@ -18,7 +18,7 @@ gulp.task("styles", () => {
     return sassResult.pipe(gulp.dest("./css/"));
 });
 
-// Watch .ts files for changes 
+// Watch files for changes 
 gulp.task("watch", ["scripts", "styles"], () => {
   gulp.watch("src/*.ts", ["scripts"]);
   gulp.watch("sass/*.scss", ["styles"]);
